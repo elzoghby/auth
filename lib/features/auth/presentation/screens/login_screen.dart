@@ -54,7 +54,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     textInputType: TextInputType.name,
                     validator: (value) => controller.validateName(value),
                     label: Text(
-                      'First name',
+                      'user name',
                       style: TextThemes.subtitleNeutralSimiBold,
                     ),
                   ),SizedBox(height: 16.px,),
